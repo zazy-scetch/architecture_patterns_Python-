@@ -9,3 +9,4 @@ def render_(template_name, folder='templates', **kwargs):
     env.loader = FileSystemLoader(folder)
     tmpl = env.get_template(template_name)
     return tmpl.render(**kwargs)
+
