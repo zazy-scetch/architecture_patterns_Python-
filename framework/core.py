@@ -72,3 +72,4 @@ class Application:
             # return '404 WHAT', [b'404 UNKNOWN COLOR!!!!!!1']
             start_response('404 NOT FOUND', [('Content-Type', 'text/html')])
             return [b'404 UNKNOWN COLOR!!!!!!1']
+            
